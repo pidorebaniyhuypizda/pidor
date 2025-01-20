@@ -1,4 +1,4 @@
-if game.PlaceId ~= 2809202155 then
+if game.PlaceId ~= 16370122705 then
     local Folder = Instance.new("Folder", workspace)
     Folder.Name = "Item_Spawns"
     local Folder2 = Instance.new("Folder", Folder)
@@ -3322,7 +3322,7 @@ Misc_Specs:Button("Buy Vamp ($10000)", function()
 end, "Buys Vampire fighting style")
 
 Misc_Specs:Button("Buy Pluck ($10000)", function()
-    Util:GetCharacter().RemoteEvent:FireServer("EndDialogue", {["Dialogue"] = "Dialogue5", ["NPC"] = "Isabelle the Arrowsmithss", ["Option"] = "Option1"})
+    Util:GetCharacter().RemoteEvent:FireServer("EndDialogue", {["Dialogue"] = "Dialogue5", ["NPC"] = "Uzurashi", ["Option"] = "Option1"})
 end, "Buys Pluck fighting style")
 
 Misc_Specs:Button("Buy Sword ($1000)", function()
